@@ -11,8 +11,10 @@ public class Address {
     @Override
     public String toString() {
         return
+
+
                 "Tên địa điểm: " + name + "\n" +
                 "      Chi tiết: " + details.toString() + "\n" +
-                "----------------------------------------------";
+                "----------------------------------------------------";
     }
 }
